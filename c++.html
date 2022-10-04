@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel = "icon" href="https://www.511store.vn/patch/wp-content/uploads/2018/03/Patch-Wolf-Warrior.jpg"
+        type = "image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./c++.css" />
+    <link rel="stylesheet" href="./reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Bungee+Spice&family=Dancing+Script&display=swap" rel="stylesheet">
+<head>
+    <title>Ngôn ngữ C++</title>
+</head>
+<body>
+    &ensp;
+    <a id="c1">
+         C++
+    </a>
+    <div class="hinhnen"></div>
+    <div>
+    <p class="sizechu">   
+        <br/>
+        <b> 
+        <a class="font1"> Kiến Thức Cơ Bản Cần Nắm Khi Bắt Đầu Học C++ .</a>
+        </b><br/>
+        <br/>
+        Khi bắt đầu học lập trình, có rất nhiều ngôn ngữ để lựa chọn. C/C++ là một ngôn ngữ lâu đời, có tốc độ nhanh, các kiểu dữ liệu rõ ràng. Nếu như làm chủ được ngôn ngữ nền tảng như C/C++ thì sau này học các ngôn ngữ khác trở nên dễ dàng hơn, do đó rất phù hợp với người mới bắt đầu. Học lập trình C/C++ có rất nhiều ứng dụng và mở ra cho bạn cực kỳ đa dạng các cơ hội để làm việc cho các công ty/tập đoàn lớn.
+        <br/>
+        Theo mình thấy, với người mới học thì C hay C++ không có quá nhiều sự khác biệt trong cú pháp, C++ còn có thể sử dụng để lập trình hướng đối tượng -  Phần này sẽ không được giới thiệu vì trong khuôn khổ bài viết là hướng dẫn lập tình C++ cơ bản. 
+        <br/>
+        Trong bài viết này mình sẽ đưa ra các hướng dẫn để làm quen C++ cơ bản nhé.
+        <br/><br/>
+        <b><a class="font2"> 1. Các kiểu dữ liệu trong C++, khung chương trình và cách khai báo biến</a> </b><br/><br/>
+        Một chương trình C++ cơ bản thường được bắt đầu bởi dòng include khai báo thư viện, sau đó là hàm main. Tất cả mọi thứ của chương trình đều sẽ chạy dọc theo hàm main từ trên xuống dưới, có nghĩa là nếu bạn viết một hàm ngoài main và trong main không gọi đến hàm đấy có nghĩa là hàm đấy sẽ không chạy trong chương trình, một hàm luôn luôn phải kết thúc bởi dấu chấm phẩy (😉 . Dưới đây là bộ khung cơ bản của chương trình Hello world bằng C++.<br/><br/>
+        
+        #include <'iostream'> (bỏ dấu ' ')<br/>
+        using namespace std;<br/>
+        &emsp;int main() {<br/>
+            &emsp;&emsp;  cout << "Hello world !";<br/>
+            &emsp;&emsp;  return 0; <br/>
+            &emsp;}
+        
+        <br/> <br/>
+        Có rất nhiều kiểu dữ liệu trong C++, đối với các bạn mới bắt đầu và để làm các bài tập cơ bản thì nên tìm hiểu trước về int, long, long long, float, double, long double, char, string, về cách biểu diễn và khoảng của mỗi kiểu dữ liệu. Sau khi đã làm các bài tập và hiểu rõ rồi thì có thể tìm hiểu thêm các kiểu dữ liệu khác. Dưới đây là một vài ví dụ về cách khai báo biến trong C++.
+        <br/><br/>
+        #include <'iostream'>(bỏdấu ' ')<br/>
+        using namespace std; <br/>
+        int main() {
+        <br/>&emsp;&emsp; int a = 10; // Khai báo biến a kiểu int có giá trị nguyên là 10  <br/>
+        &emsp;&emsp;float b = 1.5; // Khai báo biến b kiểu float có giá trị thực là 1.5 
+        <br/>
+	    &emsp;&emsp;char c; // khai báo biến c có kiểu dữ liệu là ký tự char
+         <br/>
+         &emsp;&emsp;c = 'a'; // gán giá trị cho biến c là ký tự 'a'
+            <br/>
+        &emsp;&emsp;string d; // khai báo biến d có kiểu dữ liệu là xâu string <br/>
+        &emsp;&emsp;d = "ok" // gán giá trị cho biến d là xâu"ok" <br/>
+        &emsp;&emsp;return 0;
+        &emsp;&emsp;}  
+        <br/><br/>
+        <a> 
+            Dưới đây là một vài kiểu dữ liệu và khoảng lưu trữ của các kiểu dữ liệu đó.
+        </a>
+        <a>
+            <img width="550" src="https://codelearn.io/Media/Default/Users/PhoenixH2000/image_ctdlgt/img.JPG" />
+        </a> <br/>
+        <b><a class="font2"> 2. Các câu lệnh nhập xuất và cấu trúc các câu lệnh điều khiển </a><br/><br/>
+a. Câu lệnh nhập xuất.</b>
+<br/>
+Trong C++ thì một cách đơn giản để nhập là sử dụng câu lệnh cin, và xuất sử dụng câu lệnh cout.<br/><br/>
+
+#include <'iostream'>(bỏ dấu ' ') <br/>
+    using namespace std;
+    <br/>
+    &emsp;&emsp;int main() { <br/>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;    int a; <br/>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;    cin >> a;<br/>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;    cout << a;<br/>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;    return 0;
+    }
+<b><br/>
+    b. Câu lệnh rẽ nhánh.<br/>
+
+    Cách 1: Sử dụng if else   </b> <br/>
+    #include <'iostream'> (bỏ dấu ' ') <br/>
+        using namespace std;<br/>
+        
+        int main() {<br/>
+            int a;<br/>
+            cin >> a;<br/>
+            if (a > 0) {<br/>
+                cout << "a la so duong";<br/>
+            }<br/>
+            else if (a < 0) {<br/>
+                cout << "a la so am";<br/>
+            }<br/>
+            else {<br/>
+                cout << "a bang khong";<br/>
+            }<br/>
+            return 0;<br/>
+        }<br/>
+        <b>
+        Cách 2: Sử dụng switch case<br/></b>
+
+        #include <'iostream'> (bỏ dấu ' ')<br/>
+        using namespace std;<br/>
+        
+        int main() {<br/>
+            int a;<br/>
+            cin >> a;<br/>
+            switch(a) {<br/>
+                case 0:<br/>
+                    cout << "a bang khong";<br/>
+                    break;<br/>
+                default:<br/>
+                    cout << "a khac khong";<br/>
+            }<br/>
+        
+            return 0;<br/>
+        }<br/>
+     <b><br/>
+     c. Vòng lặp.</b><br/><br/>
+        <b>
+     Vòng lặp for
+        </b><br/>
+        #include <'iostream'> (bỏ dấu ' ')<br/>
+     using namespace std;<br/>
+     
+     int main() {<br/>
+         int n = 10;<br/>
+         for (int i = 0; i < n; i++) {<br/>
+             cout << i << " ";<br/>
+         }<br/>
+         return 0;<br/>
+     }<br/>
+     <b>
+     Vòng lặp while<br/> </b>
+     
+     #include <'iostream'> (bỏ dấu ' ')<br/>
+     using namespace std;<br/>
+     
+     int main() {<br/>
+         int n = 10;<br/>
+         int i = 0;<br/>
+         while (i < n) {<br/>
+             cout << i << " ";<br/>
+         }<br/>
+         return 0;<br/>
+     }<br/>
+    <b>
+     Vòng lặp do while<br/>
+     </b>
+     
+     #include <'iostream'> (bỏ dấu ' ')<br/>
+     using namespace std;<br/>
+     
+     int main() {<br/>
+         int n = 10;<br/>
+         int i = 0;<br/>
+         do {<br/>
+             cout << i << " ";<br/>
+         } while (i < n);<br/>
+         return 0;<br/>
+     }<br/><br/>
+
+     Bình thường thì sẽ sử dụng chủ yếu vòng lặp <b>for và while</b> thôi. Tác dụng chính của vòng lặp for là lặp theo một số lượng mà mình cần, còn vòng lặp while thì sẽ lặp theo một điều kiện nhất định, do đó sẽ <b>linh hoạt hơn</b> vòng lặp for. Tùy mục đích sử dụng mà lựa chọn vòng lặp phù hợp.
+     <br/><br/><br/><br/>
+     <div class="backmenu">
+        <a href="./menu.html">Back to menu</a>
+     </div>
+     <a class="nextpage"  href="./C++2.html">
+        
+        Next page -> </a>
+
+    </p>
+</div>
+    <div class="abphai"> <img width="360" src="https://th.bing.com/th/id/R.366cd668f9691ed5d551ce0ac7c7ceb0?rik=%2b884F1NvqJW6gQ&pid=ImgRaw&r=0"></div>
+    <div class="abphai2"> <img width="360" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6ap7MEFJSUY1mDRb2RAHcULAh7WiqnxNhe94wO_0bLPHOCY6N-LktFEKoCConvUPVUdQ&usqp=CAU"></div>
+    <div class="abphai3"> <img width="360" src="https://codelearn.io/Upload/Blog/lo-trinh-hoc-cpp-cho-nguoi-moi-bat-dau-63724870929.3284.JPG"></div>
+    <div class="abphai4"> <img width="360" src="https://pbs.twimg.com/media/ChuUe4DWsAE1qrb.jpg"> </div>
+    <div class="abphai5"> <img width="360" src="https://i.pinimg.com/originals/ca/ea/e0/caeae0763bfd96561e91124406ce3a36.jpg"> </div>
+    <div class="abphai6"> <img width="360" src="https://easylearnc.files.wordpress.com/2015/03/c2.png?w=400"> </div>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./python2.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Bungee+Spice&family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+ <div class="Title">
+    <h1>PYTHON</h1>
+ </div>
+ <div class="hinhnen">
+ </div>   
+ <div class="Information">
+    <h1>13. Các khung và Stack</h1>
+    <h3>Mã Python được tải vào các khung được đặt trong Stack, các hàm được tải trong một khung cùng với các tham số và biến. Stack phác thảo việc thực hiện các chức năng và các biến được khai báo bên ngoài các hàm được lưu trữ trong __main__.</h3>
+    <h1>14. Về bộ sưu tập dữ liệu</h1>
+    <h3>Danh sách là các cấu trúc dữ liệu có thể chứa một chuỗi các giá trị của bất kỳ loại dữ liệu nào, chúng có thể thay đổi (có thể cập nhật). Danh sách được lập chỉ mục bởi số nguyên, để tạo danh sách, sử dụng dấu ngoặc vuông: my_list = ['A', 'B'].
+
+
+        <br>Để thêm / cập nhật / xóa một mục, sử dụng chỉ mục:
+        
+        
+        <br>my_list.append ('C') #adds at the end
+        
+        <br> my_list [1] = 'D' #update
+        
+        <br> my_list.pop (1) # removes
+        
+        
+        <br>Bộ dữ liệu giống như các danh sách theo nghĩa là chúng có thể lưu trữ một chuỗi các đối tượng và nó nhanh hơn danh sách, bất biến:
+        
+        
+        <br>my_tuple = tuple()
+        
+        <br> or
+        
+        <br> my_tuple = 'f','m'
+        
+        <br> or
+        
+        <br> my_tuple = ('f', 'm')
+        
+        
+        <br> Về bộ từ điển thì từ điển là một trong những cấu trúc dữ liệu quan trọng nhất trong thế giới lập trình. Nó lưu trữ các đối tượng cặp khóa / giá trị. Nó có nhiều lợi ích, ví dụ: tối ưu hóa chức năng truy xuất dữ liệu. Bạn có thể sử dụng lệnh sau:
+        
+        
+        <br> my_dictionary = dict()
+        
+        <br>my_dictionary['my_key'] = 1
+        
+        <br> my_dictionary['another_key'] = 2</h3>
+        <h1>15. Biên dịch và liên kết</h1>
+        <h3>Các tính năng này có thể được sử dụng để sử dụng một tệp được viết bằng ngôn ngữ khác, ví dụ: C hoặc C ++, v.v. Khi mã được ghi vào một tệp thì tệp có thể được đặt trong thư mục Mô-đun. Điều quan trọng là thêm một dòng trong tệp Setup.local để đảm bảo rằng tệp mới được tạo có thể được tải.</h3>
+        <h1>16. Biến lặp</h1>
+        <h3>Biến lặp cho phép di chuyển qua bộ sưu tập, tất cả các trình vòng lặp chứa các hàm __iter __ () và __next __ (). Đơn giản nhất là bạn chỉ cần thực hiện iter (x) trên danh sách, từ điển, chuỗi hoặc bộ.
+
+
+        <br>Ở phần này thì bộ lọc có nhiệm vụ lọc ra các giá trị dựa trên một điều kiện. Bản đồ áp dụng một tính toán trên mỗi giá trị của một bộ sưu tập nó phản ánh một giá trị này sang một giá trị khác, ví dụ: chuyển đổi văn bản thành số nguyên.</h3>
+        <h1>17. Thiết kế hướng đối tượng và các lớp</h1>
+        <h3>Python cho phép chúng ta tạo các loại tùy chỉnh của mình. Những kiểu do người dùng định nghĩa được gọi là các lớp. Các lớp có thể có các thuộc tính / thuộc tính và chức năng tùy chỉnh, thiết kế hướng đối tượng cho phép các lập trình viên xác định mô hình kinh doanh của họ là các đối tượng với các thuộc tính và chức năng cần thiết. Python cũng hỗ trợ sự kế thừa. Bạn sử dụng câu lệnh:
+
+
+            <br>class MyClass:
+            
+              <br>def MyClassFunction(self):  #self = reference to the object
+            
+                <br>return 5
+            
+            <br>#Create new instance of MyClass and then call the function
+            
+            <br>m = MyClass()
+            
+            <br>returned_value = m.MyClassFunction()
+            
+            
+            <br>Lưu ý rằng hàm __init__ có mặt trong tất cả các lớp. Nó được thực thi khi chúng ta được yêu cầu khởi tạo một đối tượng của một lớp. Hàm __init__ có thể lấy bất kỳ thuộc tính nào mà chúng ta muốn đặt:
+            
+            
+            <br>class MyClass:
+            
+            <br> def __init__(self, first_property):
+            
+            <br>     self.first_property = first_property
+            
+            <br>  def MyClassFunction(self):
+            
+            <br>  return self.first_property
+            
+            
+            <br>  #Create an instance
+            
+            <br>  m = MyClass(123)
+            
+            <br> r = m.MyClassFunction()
+            
+            <br> r will be 123
+            
+            
+            <br> Sử dụng hàm đối tượng __cmp__ nếu bạn muốn cung cấp logic tùy chỉnh để so sánh hai đối tượng. Nó trả về 1 (lớn hơn), -1 (thấp hơn) và 0 (bằng) để biểu thị đẳng thức của hai đối tượng. 
+            
+            
+            <br> Ngoài ra, các phương thức của một đối tượng có thể bị quá tải bằng cách cung cấp thêm đối số làm ví dụ. Bạn cũng có thể quá tải một toán tử bằng cách triển khai thực hiện riêng cho hàm  __add__.
+            
+        </h3>
+        <h1>18. Thiết kế hướng đối tượng - Kế thừa </h1>
+        <h3>Python hỗ trợ kế thừa các đối tượng. Kết quả là, một đối tượng có thể kế thừa các chức năng và thuộc tính của “cha mẹ” nó. Một lớp kế thừa có thể chứa logic khác nhau trong các chức năng của nó. Bạn có thể tạo ra các lớp như:
+
+
+            <br>class ParentClass:
+            
+            <br> def my_function(self):
+            
+            <br>  print 'I am here'
+            
+            
+            <br> class SubClass1(ParentClass):
+            
+            <br>  class SubClass2(ParentClass)</h3>
+            <h1>19. Không gian lưu trữ heap và quản lý bộ nhớ   </h1>
+            <h3>Tất cả các đối tượng trong Python được lưu trữ trong không gian heap - đây là một vùng lưu trữ đặc biệt cho phép có thể truy cập vào trình thông dịch Python. Điều đó có nghĩa là Python có thể phân bổ và phân bổ lại bộ nhớ cho chương trình của bạn một cách tự động, chẳng hạn như trong C ++ hoặc C#.Trách nhiệm của nó là xóa khoảng trống trong bộ nhớ của những đối tượng không được tham chiếu / sử dụng trong chương trình. Vì nhiều đối tượng có thể chia sẻ các tham chiếu bộ nhớ, python sử dụng hai cơ chế: 
+
+                <br>Đếm tham chiếu.  
+                
+                <br>Cơ chế thứ hai đảm nhiệm các tham chiếu vòng tròn, còn được gọi là tham chiếu theo chu kỳ. </h3>
+            <h1>20. Input/Output</h1>
+            <h3>Đầu tiên, sử dụng lệnh trên bàn phím:
+
+
+               <br> user_says = raw_input()
+                
+                <br>print(user_says)
+                
+                
+                <br>Riêng với các tệp, sử dụng câu lệnh with / as để mở và đọc tệp. Nó tương đương với việc sử dụng câu lệnh trong C #. Để mở tập tin, bạn chỉ cần dùng lệnh:
+                
+                
+                <br>with open(file path, 'r') as my_file:
+                
+                 <br> for line in my_file
+                
+                <br>#File is closed due to with/as
+                
+                
+                <br>Để mở một kết nối, bạn sử dụng:
+                
+                
+                <br>import MySQLdb
+                
+                <br>database = MySQLdb.connect(“host”=”server”, “database-user”=”my username”, “password”=”my password”, “database-name”=”my database”)
+                
+                <br>cursor = database.cursor()
+                
+                
+                <br>Đối với dịch vụ trên website, để truy cứu một dịch vụ tĩnh, bạn cần nhập lệnh: 
+                
+                <br>import requests
+                
+                <br>url = 'http://myblog.com'
+                
+                <br>response = requests.get(url).text</h3>
+                <h1>21. Xử lý lỗi  </h1>
+                <h3>Nếu bạn muốn tăng ngoại lệ thì hãy sử dụng từ khóa nâng cao:
+
+
+                    <br>try:
+                    
+                    <br> raise TypError
+                    
+                    <br> except:
+                    
+                    <br> print('exception')
+                    
+                    
+                    <br>Để nắm được những ngoại lệ trong Python bạn nên dùng:
+                    
+                    
+                    <br>  try:
+                    
+                    <br>  do_something()
+                    
+                    <br> except:
+                    
+                    <br>  print('exception')
+                    
+                    </h3>
+                    <h1>22. Đa luồng và GIL </h1>
+                    <h3>Về cơ bản thì GIL là khóa phiên dịch toàn cầu. Nó đảm bảo rằng các luồng có thể thực thi bất cứ lúc nào và cho phép các chu kỳ CPU chọn luồng cần thiết được thực thi. GIL được truyền vào các luồng hiện đang được thực thi. 
+
+
+                        <br>Lưu ý: GIL thêm chi phí chung để thực hiện. Do đó, hãy chắc chắn rằng bạn muốn chạy nhiều chủ đề.</h3>
+                    <h1>23. Mẫu thiết kế</h1>
+                    <h3>Mẫu thiết kế trong Python có thể thêm chức năng để giải mã. Chúng cơ bản là các hàm gọi các đối tượng / hàm khác. Bạn có thể bọc một lớp / hàm và sau đó một mã cụ thể sẽ được thực thi bất cứ khi nào hàm được gọi. Bạn cũng có thể triển khai logic chung để ghi nhật ký, kiểm tra kiểm tra bảo mật, v.v. và sau đó gán phương thức với thẻ @property</h3>
+                    <h1>24. Kiểm tra đơn vị trong Python    </h1>
+                    <h3>Có một số thư viện thử nghiệm và mô phỏng đơn vị có sẵn trong Python. Bạn có thể thử kiểm tra đơn vị bằng lệnh:
+
+
+                       <br> import unittest
+                        
+                       <br> class TestClass(unittest.TestCase):
+                        
+                       <br> def my_test(self):
+                        
+                       <br>  self.assertEqual(my_function(1), 0)) #checking 1 becomes 0
+                        
+                        
+                       <br>  Trên đây là toàn bộ những kiến thức từ cơ bản tới nâng cao để hiểu rõ về Python trong lập trình cho lập trình viên. Hy vọng bài viết đã có thể giải đáp toàn bộ thắc mắc của bạn về ngôn ngữ lập trình này</h3>
+ </div>
+ <div class="back">
+    <a href="./menu.html"><h2>Back to the menu</h2></a>
+</div>
+<div class="next">
+    <a href="./python.html"><h2>Back to page <--</h2></a>
+</div>
+</div>
+<div class="hinhanh1">
+    <img src="https://i1.wp.com/www.datascienceexamples.com/wp-content/uploads/2019/09/common-python-errors.jpg?fit=600%2C500&ssl=1" alt="anh1">
+</div>
+<div class="hinhanh2">
+    <img src="https://ih1.redbubble.net/image.536468926.7128/throwpillow,small,600x-bg,f8f8f8-c,0,120,600,600.u6.jpg" alt="anh2">
+</div>
+</body>
+</html>

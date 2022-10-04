@@ -1,0 +1,101 @@
+
+html{
+    font-size: 40.8%;
+    font-family: 'alata';
+    }
+#c1{
+    font-size: 120px;
+    font-weight: bold;
+    color:black;
+}
+.hinhnen2{
+    background-image: url(https://wallpaperaccess.com/full/945984.jpg);
+    width: 1472px;
+    height: 70px;
+    margin: 0px;
+}
+.abphai{
+    position: absolute;
+    left: 170.5rem;
+    top: 60.83rem;
+    right: 30rem;
+    
+}
+.abphai2{
+    position: absolute;
+    left: 170.5rem;
+    top: 140.83rem;
+    right: 30rem;
+    
+}
+body{
+    margin: 0 0 0 0;
+    width: 192rem;
+    height: 100rem;
+}
+.sizechu{
+    font-size: 3rem;
+    width: 150rem;
+}
+.abphai3{
+    position: absolute;
+    left: 170.5rem;
+    top: 240.83rem;
+    right: 30rem;
+    
+}
+.abphai4{
+    position: absolute;
+    left: 170.5rem;
+    top: 350.83rem;
+    right: 30rem;
+    
+}
+.abphai5{
+    position: absolute;
+    left: 170.5rem;
+    top: 370.83rem;
+    right: 30rem;
+    
+}
+.abphai6{
+    position: absolute;
+    left: 170.5rem;
+    top: 490.83rem;
+    right: 30rem;
+    
+}
+.abphai7{
+    position: absolute;
+    left: 170.5rem;
+    top: 580.83rem;
+    right: 30rem;
+    
+}
+.nextpage{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+
+}
+.font1{
+    font-size: 30px;
+}
+.font2{
+    font-size: 25px;
+}
+.thank{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    left: 100.5rem;
+    top: 645.83rem;
+    right: 30rem;
+    
+}
+.backmenu{
+    font-size: 4rem;
+}
+.backpage{
+  font-size: 5rem;  
+}

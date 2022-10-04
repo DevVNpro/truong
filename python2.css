@@ -1,0 +1,47 @@
+html{
+    font-size: 43.94%;
+    font-family: 'alata';
+}
+    body{
+        margin: 0 0 0 0;
+        width: 180rem;
+        height: 100rem;
+}
+.hinhnen{
+    background-image: url(https://wallpaperaccess.com/full/945984.jpg);
+    width: 193rem;
+    height: 10rem;
+}
+.Information{
+    width: 100rem;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 0rem;
+}
+.Title{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+h3{
+    font-size: 2rem;
+    margin-bottom: 0rem;
+    
+}
+.back{
+    font-size: 2rem;
+}
+.next{
+    font-size: 2rem;
+}
+.hinhanh1{
+    position: absolute;
+    left: 105rem;
+    top:20rem;
+}
+.hinhanh2{
+    position: absolute;
+    left: 105rem;
+    top: 125rem;
+
+}

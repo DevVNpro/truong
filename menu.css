@@ -1,0 +1,61 @@
+html{
+    font-size: 43.94%;
+    }
+    body{
+        margin: 0 0 0 0;
+        width: 180rem;
+        height: 100rem;
+    }
+    .Title{
+        font-size: 7rem;
+        text-align: center;
+        font-family: 'alata';
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        width: 192rem;
+        height: 10rem;  
+    }
+    .hinhnen{
+        background-image: url(https://wallpaperaccess.com/full/945984.jpg);
+        width: 193rem;
+        height: 10rem;
+    }
+    .introduction{
+        margin-top: 3rem;
+        width: 130rem;
+        height: 3rem;
+        font-family: 'alata';
+    }
+    h1{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    #question{
+        margin-bottom: 1rem;
+    }
+    .menu{
+        font-size: 3rem;
+        border: 3px;
+        width: 20rem;
+        
+        border-style: solid;
+        text-align: center;
+    }
+    
+    .dropdown{
+        font-size: 2rem;
+        border: 3px;
+        width: 20rem;
+        border-style: solid;
+        text-align: center;
+    }
+    .pic1{
+    position: absolute;
+    left: 121.5rem;
+    top: 59rem;
+    }
+    .pic2{
+    position: absolute;
+    top:59rem;
+    left: 51rem;
+    }
