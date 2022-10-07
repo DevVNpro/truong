@@ -19,13 +19,21 @@ h1{
     font-size: 3rem;
     margin-top: 0rem;
 }
+h1{
+    color: rgb(26, 82, 118);
+}
+#a{
+    color: black;
+}
 .Title{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    margin-left: 1rem;
 }
 h3{
     font-size: 2rem;
     margin-bottom: 0rem;
+    margin-left: 10px;
     
 }
 .back{
