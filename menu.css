@@ -1,5 +1,6 @@
 html{
-    font-size: 43.94%;
+    font-size: 46.08%;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1007856310/thumb/1.jpg?ip=x480&fbclid=IwAR1sG4RNWDCddfTw_YwxuwzZRxZcW6JBMp8IHao1hCqist7_khJPqkC34ps);
     }
     body{
         margin: 0 10px 0 10px;
@@ -57,5 +58,30 @@ html{
     .pic2{
     position: absolute;
     top:59rem;
-    left: 51rem;
+    left: 54rem;
+    }
+    .container{
+       position: absolute;
+        bottom: 88rem;
+        right: 1rem;
+        text-align: center
+    }
+    #menu__search{
+        padding: 1rem;
+    }
+    #menu__list{
+        margin-top: 1rem;
+        font-size:  0px;
+    }
+    .menu__item{
+      display: inline-block;
+    }
+    .menu__item a{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(14, 85, 131 );
+        padding:  0.5rem 1rem;
+        border-radius: 0.5rem;
+        font-size: 2.5rem;
+        margin: 0 1rem;
     }

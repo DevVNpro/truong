@@ -1,12 +1,11 @@
 function searchfunc(){
-    let menusearch = document.querySelector('#menu__search')
-    let menuitems =Array.from(document.querySelectorAll('.menu__item'));
-    menusearch.value=menusearch.value.toLowercase();
+    let menusearch= document.querySelector('#menu__search');
+    let menuitems=Array.from(document.querySelectorAll('.menu__item'));
+    menusearch.value=menusearch.value.toLowerCase();
     menuitems.forEach(function(el){
         let text= el.innerText;
         if(text.indexOf(menusearch.value)>-1)
-        el.stle.display="";
+        el.style.display=""
         else el.style.display="none";
     })
-
 }
