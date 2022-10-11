@@ -5,13 +5,13 @@ html{
 
 }
     body{
-        margin: 0 0 0 0;
+    
         width: 180rem;
         height: 100rem;
 }
 .hinhnen{
     background-image: url(https://wallpaperaccess.com/full/945984.jpg);
-    width: 193rem;
+    width: 200rem;
     height: 10rem;
 }
 .Information{
@@ -19,12 +19,12 @@ html{
 }
 .hinhanh1{
     position: absolute;
-    left: 105rem;
+    left: 116rem;
     top:20rem;
 }
 .hinhanh2{
     position: absolute;
-    left: 105rem;
+    left: 116rem;
     top: 125rem;
 
 }
