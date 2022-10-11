@@ -49,6 +49,10 @@ html{
         border-style: solid;
         text-align: center;
     }
+    .dropdown a{
+        text-decoration: none;
+        color: rgb(14, 85, 131 );
+    }
     .pic1{
     position: absolute;
     left: 126.3rem;
