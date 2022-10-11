@@ -3,7 +3,6 @@ html{
     background-image: url(https://ak.picdn.net/shutterstock/videos/1007856310/thumb/1.jpg?ip=x480&fbclid=IwAR1sG4RNWDCddfTw_YwxuwzZRxZcW6JBMp8IHao1hCqist7_khJPqkC34ps);
     }
     body{
-        margin: 0 10px 0 10px;
         width: 180rem;
         height: 100rem;
     }
@@ -52,18 +51,18 @@ html{
     }
     .pic1{
     position: absolute;
-    left: 121.5rem;
-    top: 59rem;
+    left: 125rem;
+    top: 65rem;
     }
     .pic2{
     position: absolute;
-    top:59rem;
-    left: 54rem;
+    top:65rem;
+    left: 57.5rem;
     }
     .container{
        position: absolute;
-        bottom: 88rem;
-        right: 1rem;
+        bottom: 92.9rem;
+        right: 0rem;
         text-align: center
     }
     #menu__search{
