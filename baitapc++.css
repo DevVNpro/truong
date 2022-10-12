@@ -38,8 +38,7 @@ html{
 
 #picture1{
     position: absolute;
-    bottom: 110px;
-    left: 1030px;
+    left: 1150px;
     height: 300px;
     width: 300px;
     /* margin-right: 25px;
@@ -48,8 +47,8 @@ html{
 
 #picture2{
     position: absolute;
-    left: 990px;
-    bottom: 40px;
+    left: 1100px;
+   top: 500px;
     /* height: 300px;
     width: 300px; */
 }

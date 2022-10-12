@@ -37,8 +37,8 @@ body{
 
 #picture1{
     position: absolute;
-    bottom: 110px;
-    left: 1030px;
+    top: 178px;
+    left: 1150px;
     height: 300px;
     width: 300px;
     /* margin-right: 25px;
@@ -47,8 +47,8 @@ body{
 
 #picture2{
     position: absolute;
-    left: 990px;
-    bottom: 40px;
+    left: 1150px;
+    top: 380px;
     /* height: 300px;
     width: 300px; */
 }
