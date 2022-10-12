@@ -47,6 +47,15 @@ h3{
     text-decoration: none;
     color:rgb(7, 34, 52)
 }
+.back h2{
+    margin-bottom: 0%;
+
+}
+.next h2{
+    margin-top: 0%;
+}
+
+
 .hinhanh1{
     position: absolute;
     left: 116rem;
