@@ -70,8 +70,8 @@ body{
 .nextpage{
     font-size: 30px;
     font-weight: bold;
-    color: blue;
-
+    color: rgb(7, 34, 52);
+    text-decoration: none;
 }
 .font1{
     font-size: 30px;
@@ -79,6 +79,8 @@ body{
 .font2{
     font-size: 25px;
 }
-.backmenu{
+.backmenu a{
     font-size: 4rem;
+    text-decoration: none;
+    color:rgb(7, 34, 52)
 }

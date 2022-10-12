@@ -94,11 +94,15 @@ body{
     right: 30rem;
     
 }
-.backmenu{
+.backmenu a{
     font-size: 4rem;
+    text-decoration: none;
+    color:rgb(7, 34, 52)
 }
-.backpage{
+.backpage a{
   font-size: 5rem;  
+  text-decoration: none;
+  color:rgb(7, 34, 52)
 }
 
 .bottom{
