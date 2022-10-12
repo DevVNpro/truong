@@ -121,3 +121,8 @@ body{
     position: absolute;
     text-align: center;
 }
+.back a{
+    font-size: 4rem;
+    text-decoration: none;
+    color:rgb(7, 34, 52)
+}
