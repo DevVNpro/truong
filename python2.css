@@ -54,3 +54,12 @@ h3{
     top: 125rem;
 
 }
+.bottom{
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    position: absolute;
+    left: 140rem;
+    top: 401rem;
+    text-align: center;
+
+}

@@ -100,3 +100,13 @@ body{
 .backpage{
   font-size: 5rem;  
 }
+
+.bottom{
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    position: absolute;
+    left: 162rem;
+    top: 642rem;
+    text-align: center;
+
+}
