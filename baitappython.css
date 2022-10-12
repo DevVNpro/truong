@@ -36,8 +36,8 @@ body{
 
 #picture1{
     position: absolute;
-    bottom: 100px;
-    left: 1030px;
+    bottom: 200px;
+    left: 1100px;
     height: 300px;
     width: 300px;
     /* margin-right: 25px;
@@ -46,8 +46,8 @@ body{
 
 #picture2{
     position: absolute;
-    left: 1030px;
-    bottom: -100px;
+    left: 1100px;
+    bottom: 40px;
     /* height: 300px;
     width: 300px; */
 }
@@ -100,7 +100,7 @@ body{
     font-family: SEGOE SCRIPT;
     font-size: 23PX;
     position:absolute;
-    left: 500px;
-    bottom: -200px;
+    left: 550px;
+    bottom: -100px;
     text-align: center ;
 }
