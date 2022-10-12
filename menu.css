@@ -45,6 +45,7 @@ html{
     .dropdown{
         font-size: 2rem;
         border: 3px;
+        border-top: 0px;
         width: 20rem;
         border-style: solid;
         text-align: center;
