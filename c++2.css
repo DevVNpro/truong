@@ -108,5 +108,12 @@ body{
     left: 162rem;
     top: 642rem;
     text-align: center;
-
+}
+.bottom1{
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    left: 162rem;
+    top: 425rem;
+    position: absolute;
+    text-align: center;
 }
