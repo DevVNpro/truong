@@ -7,11 +7,10 @@
 html{
     height: 100%;
     width: 100%;
-    background-image: url(https://ak.picdn.net/shutterstock/videos/1007856310/thumb/1.jpg?ip=x480&fbclid=IwAR1sG4RNWDCddfTw_YwxuwzZRxZcW6JBMp8IHao1hCqist7_khJPqkC34ps);
-
 }
 
 body{
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1007856310/thumb/1.jpg?ip=x480);
     height: 100%;
 }
 
@@ -37,8 +36,8 @@ body{
 
 #picture1{
     position: absolute;
-    top: 178px;
-    left: 1150px;
+    bottom: 100px;
+    left: 1030px;
     height: 300px;
     width: 300px;
     /* margin-right: 25px;
@@ -47,8 +46,8 @@ body{
 
 #picture2{
     position: absolute;
-    left: 1150px;
-    top: 380px;
+    left: 1030px;
+    bottom: -100px;
     /* height: 300px;
     width: 300px; */
 }
@@ -75,17 +74,17 @@ body{
 
 #footer li a{
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 50px;
     font-family: Brush Script MT, cursive;
     text-decoration: none;
 }
 
 #footer a:first-child{
-    font-size: 25px ;
+    font-size: 30px ;
 }
 
 #footer a:hover {
-    color: aliceblue;
+    color: rgb(61, 112, 156);
 }
 
 /* #btm{
@@ -95,3 +94,13 @@ body{
 #np{
     font-size: 40px;
 } */
+
+#CN{
+    /* background-color: gray; */
+    font-family: SEGOE SCRIPT;
+    font-size: 23PX;
+    position:absolute;
+    left: 500px;
+    bottom: -200px;
+    text-align: center ;
+}

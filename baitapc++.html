@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4jyIZKnCnSctH43DTboAeajoTwEeJPFbk_A&usqp=CAU"
-    type = "image/x-icon">
-    <title>EXERCISE C++</title>
+    <title>Online Book</title>
     <link rel="stylesheet" href="./baitapc++.css">
 </head>
 
@@ -28,22 +26,25 @@
     <div id="content">
         <div id="mainbox">
             <div id="picture1">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/150px-ISO_C%2B%2B_Logo.svg.png" alt="">
+                <img src="https://cdn01.alison-static.net/courses/2874/alison_courseware_intro_2874.jpg" alt="">
             </div>
             <!-- <div id="picture2">
                 <img src="" alt="">
             </div> -->
             <div id="para1">
-                <p style="text-indent: 10px;", id="para 1">Bài tập: Chuyển đổi từ nhiệt độ Fahreneit sang Selsius theo công thức:
+                <p style="text-indent: 35px;", id="para 1">Bài tập 1: Chuyển đổi từ nhiệt độ Fahreneit sang Selsius theo công thức:
                 <br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;C = 5*(F - 32) / 9
                 <br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;C: nhiệt độ C
                 <br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;F: nhiệt độ F
+
+                <br><br>&ensp;&ensp;&ensp;&ensp;Bài tập 2: In dãy số Fibonacci trong C++ không sử dụng đệ quy.
                 </p>
             </div>
             
             <h2 style="text-indent:20px;">Answer</h2>
             <!--văn bản-->
-            <p>&ensp;void main(){
+            <p>Bài tập 1:
+                <br>&ensp;void main(){
                     <br>&ensp;&ensp;&ensp;&ensp;float C = 0;
                     <br>&ensp;&ensp;&ensp;&ensp;float F;
                     <br>&ensp;&ensp;&ensp;&ensp;cout&lt;&lt;"\n Nhap vao nhiet do F = ";
@@ -51,19 +52,58 @@
                     <br>&ensp;&ensp;&ensp;&ensp;C = 5*(F - 32)/float(9);
                     <br>&ensp;&ensp;&ensp;&ensp;cout&lt;&lt;"\n Nhieu do Celcius = "&lt;&lt;C;
                     <br>&ensp;&ensp;&ensp;&ensp;getch();
-                <br>&ensp;}</p>
+                <br>&ensp;}
+                
+                <br><br>Bài tập 2:
+                <br>int fibonacci(int n) {
+                    <br>&ensp;&ensp;int f0 = 0;
+                    <br>&ensp;&ensp;int f1 = 1;
+                    <br>&ensp;&ensp;int fn = 1;
+                    <br>&ensp;&ensp;int i;
+                 
+                    <br><br>&ensp;&ensp;if (n < 0) {
+                        <br>&ensp;&ensp;&ensp;&ensp;return -1;
+                    <br>&ensp;&ensp;}else if (n == 0 || n == 1) {
+                        <br>&ensp;&ensp;&ensp;&ensp;return n;
+                    <br>&ensp;&ensp;} else {
+                    <br>&ensp;&ensp;&ensp;&ensp;for (i = 2; i < n; i++) {
+                        <br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;f0 = f1;
+                        <br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;f1 = fn;
+                        <br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;fn = f0 + f1;
+                    <br>&ensp;}
+                <br>&ensp;}
+                <br>return fn;
+                <br>}
+                
+                <br><br>int main() {
+                <br>int i;
+                    <br>&ensp;cout << "10 so dau tien cua day so Fibonacci: \n";
+                    <br>&ensp;for (i = 0; i < 10; i++) {
+                        <br>&ensp;&ensp;cout << fibonacci(i) << " ";
+                <br>&ensp;&ensp;}
+                <br>}
+            </p>
             <div id="picture2">
-                <img src="data:image/jpeg;base64,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" alt="">
+                <img src="https://funix.edu.vn/wp-content/uploads/2021/12/ham-tang-truong-theo-cap-so-nhan-300x200.jpg" alt="">
+            </div>
+            <div id="picture3">
+                <img src="https://plcschneider.com/wp-content/uploads/2022/05/C-300x200.jpg" alt="">
+            </div>
+            <div id="picture4">
+                <img src="https://www.positioniseverything.net/wp-content/uploads/2021/11/character-variable-C-300x200.jpg">
             </div>
         </div>
     </div>
 
     <div id="footer">
         <li>
-            <a href="./index.html"><br>&ensp;&ensp;Back to menu</a>
-            <a href="./baitappython.html"><br>&ensp;Back to the page <--</a>
+            <a href="./index.html"><br>&ensp;&ensp;Back To Menu</a>
+            <a href="./baitappython.html"><br>&ensp;Next Page - ></a>
         </li>
-        <p></p>
+        <div id="CN">
+            <p><b>Học, học nữa, học mãi! (V.I.Lenin)</b></p>
+        </div>
+            
     </div>
 </body>
 </html>

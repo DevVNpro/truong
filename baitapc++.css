@@ -7,14 +7,12 @@
 html{
     height: 100%;
     width: 100%;
-    background-image: url(https://ak.picdn.net/shutterstock/videos/1007856310/thumb/1.jpg?ip=x480&fbclid=IwAR1sG4RNWDCddfTw_YwxuwzZRxZcW6JBMp8IHao1hCqist7_khJPqkC34ps);
-
 }
 
-/* body{
-    background-image: linear-gradient(0,rgba(0, 0, 0, 0.651),rgb(255, 255, 255));
+body{
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1007856310/thumb/1.jpg?ip=x480);
     height: 200%;
-} */
+}
 
 #first {
     font-family: forte,Arial,sans-serif;
@@ -38,7 +36,8 @@ html{
 
 #picture1{
     position: absolute;
-    left: 1150px;
+    bottom: 110px;
+    left: 990px;
     height: 300px;
     width: 300px;
     /* margin-right: 25px;
@@ -47,10 +46,21 @@ html{
 
 #picture2{
     position: absolute;
-    left: 1100px;
-   top: 500px;
-    /* height: 300px;
-    width: 300px; */
+    left: 990px;
+    bottom: -100px;
+}
+
+#picture3{
+    position: absolute;
+    left: 990px;
+    bottom: -400px;
+    /* width: 300px; */
+}
+
+#picture4{
+    position: absolute;
+    left: 990px;
+    bottom: -700px;
 }
 
 #mainbox p{
@@ -75,13 +85,13 @@ html{
 
 #footer li a{
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 50px;
     font-family: Brush Script MT, cursive;
     text-decoration: none;
 }
 
 #footer a:first-child{
-    font-size: 25px ;
+    font-size: 30px ;
 }
 
 #footer a:hover {
@@ -95,3 +105,12 @@ html{
 #np{
     font-size: 40px;
 } */
+
+#CN{
+    /* background-color: gray; */
+    font-family: SEGOE SCRIPT;
+    font-size: 23PX;
+    position:absolute;
+    left: 500px;
+    bottom: -730px;
+}
