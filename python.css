@@ -48,9 +48,13 @@ h3{
     margin-left: 10px;
     
 }
-.back{
+.back a{
     font-size: 2rem;
+    text-decoration: none;
+    color:rgb(7, 34, 52)
 }
-.next{
+.next a{
     font-size: 2rem;
+    text-decoration: none;
+    color: rgb(7, 34, 52)
 }
