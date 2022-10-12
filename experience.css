@@ -85,33 +85,19 @@ body{
 .font2{
     font-size: 25px;
 }
-.thank{
-    position: absolute;
-    font-size: 30px;
-    font-weight: bold;
-    left: 100.5rem;
-    top: 645.83rem;
-    right: 30rem;
-    
-}
-.bottom{
-    font-family: 'Anton', sans-serif;
-    font-size: 4rem;
-    position: absolute;
-    left: 162rem;
-    top: 642rem;
-    text-align: center;
-}
 .bottom1{
     font-family: 'Anton', sans-serif;
     font-size: 4rem;
     left: 162rem;
-    top: 425rem;
+    top: 419rem;
     position: absolute;
     text-align: center;
 }
 .back a{
     font-size: 4rem;
     text-decoration: none;
+    position: absolute;
+    top:2800px;
     color:rgb(7, 34, 52)
+    
 }
