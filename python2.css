@@ -76,3 +76,9 @@ h3{
     text-align: center;
 
 }
+.back a:hover {
+    color: rgb(74, 160, 235);
+}
+.next a:hover {
+    color: rgb(74, 160, 235);
+}

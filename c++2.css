@@ -126,3 +126,9 @@ body{
     text-decoration: none;
     color:rgb(7, 34, 52)
 }
+.backmenu a:hover {
+    color: rgb(74, 160, 235);
+}
+.nextpage a:hover {
+    color: rgb(74, 160, 235);
+}

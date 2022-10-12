@@ -64,3 +64,9 @@ h3{
 .next h2{
     margin-top: 0%;
 }
+.back a:hover {
+    color: rgb(74, 160, 235);
+}
+.next a:hover {
+    color: rgb(74, 160, 235);
+}
